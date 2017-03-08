@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "ctrl+",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+      "<all_urls>"
+    ],
+    "js": ["./js/content.js"]
+  }
+ ],
+  "background" : {
+    "scripts" : ["./js/ctrl.js"],
+    "persistent" : false
+  },
+  "commands": {
+    "last_0" : {
+      "suggested_key":{
+        "default": "Ctrl + Shift + 1",
+        "mac": "MacCtrl + 1",
+        "windows": "Ctrl + Shift + 1"
+      },
+      "description" : "Go to the last tab"
+    }
+  },
+  "permissions" : ["tabs"]
+}
