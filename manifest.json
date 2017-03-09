@@ -22,6 +22,30 @@
         "windows": "Ctrl + Shift + 1"
       },
       "description" : "Go to the last tab"
+    },
+    "last_1": {
+      "suggested_key":{
+        "default" : "Ctrl + Shift + 2",
+        "mac" : "MacCtrl + 2",
+        "windows" : "Ctrl + Shift + 2"
+      },
+      "description" : "Go to the second last tab"
+    },
+    "last_2": {
+      "suggested_key":{
+        "default" : "Ctrl + Shift + 3",
+      "mac" : "MacCtrl + 3",
+      "windows" : "Ctrl + Shift + 3"
+      },
+      "description" : "Go to the third last tab"  
+    },
+    "last_3" : {
+        "suggested_key" : {
+          "default" : "Ctrl + Shift + 4",
+          "mac" : "MacCtrl + 4",
+          "windows" : "Ctrl + Shift + 4"
+        },
+        "description" : "Go to the fourth last tab"
     }
   },
   "permissions" : ["tabs"]
