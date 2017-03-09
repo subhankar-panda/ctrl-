@@ -1,2 +1,2 @@
 # ctrl+
-Chrome Extension to navigate tabs better
+Adding better shortcut functionality to Google Chrome
