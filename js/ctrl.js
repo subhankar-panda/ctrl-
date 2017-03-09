@@ -8,5 +8,6 @@ chrome.commands.onCommand.addListener(function (command) {
 var goToTab = function(index){
 	chrome.tabs.query({}, function(result){
 		console.log(result);
+		chrome.tabs.update(result[result.length - 1 - index].id, {"active" : true})
 	});
 }
